@@ -1,0 +1,9 @@
+{% extends "template.html" %}
+{% block title %}trident c2 - login{% endblock %}
+{% block body %}
+    <form action="/login" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <input type="submit" value="Login">
+    </form>
+{% endblock %}
